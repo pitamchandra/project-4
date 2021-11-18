@@ -1,0 +1,695 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a, a:hover{
+	text-decoration: none;
+}
+body{
+	line-height: 1.4;
+	font-family: 'Poppins', sans-serif;
+}
+ul{
+	padding-left: 0;
+}
+input:focus{
+	box-shadow: 0px 0px 0px 0px #fff !important;
+}
+textarea:focus{
+	outline: 0;
+}
+/***********  global css code start  **************/
+.banner .row , .leatest .row , .contact .row{
+	margin: 0;
+}
+.leatest .col-md-4{
+	padding: 0;
+}
+.mobile-display{
+	display: none;
+}
+.desktop-display{
+	display: block;
+}
+.gap{
+	padding: 120px 0;
+}
+.mt{
+	margin-top: 100px;
+}
+.myh2{
+	font-size: 36px;
+	line-height: 52px;
+	font-weight: 500;
+	color: #242424;
+	text-align: center;
+	margin-bottom: 0;
+}
+.myh3{
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 300;
+	color: #598bd0;
+	text-align: center;
+	margin-bottom: 0;
+}
+.myh4{
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #242424;
+	margin-bottom: 10px;
+}
+.myp{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 300;
+	color: #666;
+	margin-bottom: 0;
+}
+.mybtn{
+	font-size: 18px;
+    color: #fff;
+    border: 0px;
+    padding: 10px 20px;
+    background: #598bd0;
+    margin-top: 15px;
+}
+.mybtn:hover{
+	background: #476FA6;
+	color: #fff;
+}
+
+/***********  global css code end  **************/
+
+/***********  header css code start  **************/
+
+.bg-light{
+	background: #fff;
+	box-shadow: 0 1px 4px 0px #888;
+}
+.navbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 20px;
+	z-index: 9999;
+	transition: .5s;
+}
+.navbar-bg{
+	padding: 10px 20px;
+}
+.navbar-light .navbar-nav .nav-link{
+	font-size: 12px;
+	font-weight: 600;
+	color: #666;
+	margin-left: 20px;
+	letter-spacing: .7px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #598bd0;
+}
+.navbar-light .navbar-nav .btn-info{
+	font-size: 14px;
+    color: #fff;
+    margin-left: 50px;
+    letter-spacing: 0;
+    border: 0px;
+    padding: 6px 17px;
+    background: #6c6;
+}
+.navbar-light .navbar-nav .btn-info:hover{
+	color: #fff;
+    background: #52A352;
+}
+/***********  header css code end  **************/
+
+/***********  banner css code start  **************/
+.banner{
+	width: 100%;
+	background: url(../img/banner.jpg) top center no-repeat;
+	background-size: cover;
+}
+.banner-inner{
+	padding: 200px 0px;
+	text-align: center;
+}
+.banner-inner h1{
+	font-size: 88px;
+	color: #000;
+	font-weight: 300;
+	margin: 20px 0;
+}
+.banner-inner p{
+	font-size: 24px;
+	color: #666;
+	font-weight: 200;
+}
+.banner-btn{
+	text-align: center;
+	margin-top: 20px;
+}
+.banner-btn .mybtn{
+	font-size: 18px;
+	padding: 15px 70px;
+
+}
+.banner-btn .btn-bg{
+	background: transparent;
+	color: #666;
+}
+
+/***********  banner css code end  **************/
+
+/***********  about css code start  **************/
+.about{
+	width: 100%;
+	background: url(../img/about-bg.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+}
+.about-inner{
+	width: 50%;
+	right: 0;
+	background: #fff;
+	padding: 120px;
+}
+.about-inner .myh2{
+	text-align: left;
+}
+.about-inner .myh3{
+	text-align: left;
+	padding: 20px 0;
+}
+/***********  about css code end  **************/
+
+/***********  start css code start  **************/
+.start{
+	width: 100%;
+	background: url(../img/start-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.start-inner{
+	text-align: center;
+	padding: 180px 0;
+}
+.start-inner .myh2{
+	color: #fff;
+}
+.start-inner .myp{
+	color: #fff;
+	padding: 20px 0;
+}
+/***********  start css code end  **************/
+
+/***********  features css code start  **************/
+.features{
+	width: 100%;
+	background: #F2F2F2;
+}
+
+/***********  features css code end  **************/
+
+/***********  product css code start  **************/
+.product{
+	width: 100%;
+	background: #fff;
+}
+.product-top{
+	text-align: center;
+}
+.product-top .myp{
+	margin: 15px 0;
+}
+.product-inner{
+	text-align: center;
+}
+.product-inner img{
+	margin: 40px 0;
+
+}
+.product-inner .myh3{
+	color: #242424;
+}
+.product-inner h4{
+	font-size: 32px;
+	line-height: 51px;
+	font-weight: 400;
+	color: #000;
+}
+.product-inner h4 del{
+	font-size: 18px;
+	line-height: 29px;
+	font-weight: 300;
+	color: #6699cc;
+}
+.product-inner p{
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #66cc66;
+}
+/***********  product css code end  **************/
+
+/***********  testimonial css code start  **************/
+.testimonial{
+	width: 100%;
+	background: #fff;
+}
+.testi-top .myp{
+	text-align: center;
+	margin: 15px 0;
+}
+.testi-inner{
+	width: 100%;
+	background: #000;
+	margin-top: 50px;
+	position: relative;
+	overflow: hidden;
+}
+.testi-inner img{
+	opacity: .4;
+}
+.testi-text{
+	position: absolute;
+	left: 0;
+	top: 90%;
+	padding: 20px;
+	transition: .5s;
+}
+.testi-inner:hover .testi-text{
+	top: 50%;
+}
+.testi-text h5{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 500;
+	color: #fff;
+}
+.testi-text h6{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 300;
+	color: #66ccff;
+}
+.testi-text .myp{
+	color: #fff;
+}
+.testi-btn{
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+}
+/***********  testimonial css code end  **************/
+
+/***********  leatest css code start  **************/
+.leatest{
+	width: 100%;
+}
+.leatest-inner{
+	width: 100%;
+	background: #000;
+	position: relative;
+	overflow: hidden;
+}
+.leatest-inner img{
+	opacity: .7;
+}
+.leatest-text{
+	position: absolute;
+	left: 0;
+	bottom: -130px;
+	padding: 20px;
+	transition: .5s;
+	overflow: hidden;
+}
+.leatest-inner:hover .leatest-text{
+	bottom: 0;
+}
+.leatest-text h5{
+	font-size: 30px;
+	line-height: 26px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 40px;
+	transition: .5s;
+}
+.leatest-inner:hover .leatest-text h5{
+	margin-bottom: 20px;
+}
+.leatest-text .myp{
+	color: #fff;
+	margin-bottom: 10px;
+}
+.leatest-text a{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	color: #66ccff;
+}
+/***********  leatest css code end  **************/
+
+/***********  contact css code start  **************/
+.contact{
+	width: 100%;
+	background: #fff;
+}
+.contact-inner-1{
+	padding: 0 50px;
+	text-align: right;
+}
+.contact-inner-1 h5{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #333;
+}
+.contact-inner-2{
+	width: 100%;
+	background: #EFEFEF;
+	padding: 30px;
+}
+.contact-inner-2 .myh2{
+	text-align: left;
+	margin-bottom: 50px;
+}
+.input-group{
+	width: 100%;
+	background: #fff;
+	border: 2px solid #dadada;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.input-group label{
+	font-size: 10px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #969696;
+}
+.input-group .form-control , .input-group textarea , .input-group select{
+	width: 100%;
+	font-size: 13px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #555;
+	border: 0;
+}
+.contact-inner-3{
+	padding: 0 50px;
+	text-align: left;
+}
+.contact-inner-3 h5{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 500;
+	color: #333;
+}
+.contact-inner-3 p{
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #333;
+	margin-bottom: 0;
+}
+/***********  contact css code end  **************/
+/**************  footer css code start  *********************/
+
+.footer{
+	width: 100%;
+	background: #EFEFEF;
+	text-align: center;
+}
+.social-icons ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 10px;
+}
+.social-icons ul li a i{
+	font-size: 16px;
+	color: #000;
+}
+/**************  footer css code end  *********************/
+
+.scrollup{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	background: #4870A6;
+	border-color: #4870A6;
+	color: #fff;
+}
+.scrollup:hover{
+	background: #52A352;
+	border-color: #52A352;
+}
+
+/**********  responsive code start  ***********/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+	.navbar-light .navbar-toggler{
+		border-color: #000;
+	}
+	.navbar-nav{
+		padding-top: 20px;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		text-align: center;
+		margin-left: 0;
+	}
+	.navbar-light .navbar-nav .btn-info{
+		margin-left: 0;
+	}
+	.banner{
+		background: url(../img/banner.jpg) center right no-repeat;
+	}
+	.banner-inner{
+		padding: 150px 0;
+	}
+	.banner-inner h1{
+		font-size: 45px;
+	}
+	.about-inner {
+	    width: 100%;
+	    padding: 10px;
+	}
+	.myh2{
+		font-size: 30px;
+		line-height: 42px;
+	}
+	.myh3{
+		font-size: 22px;
+		line-height: 36px;
+	}
+	.mobile-display{
+		display: block;
+	}
+	.desktop-display{
+		display: none;
+	}
+	.features-inner{
+		margin-bottom: 20px;
+	}
+	.mb{
+		margin-bottom: 0;
+	}
+	.mt{
+		margin-top: 0;
+	}
+
+	.product-inner{
+		margin-bottom: 30px;
+	}
+	.testimonial.gap{
+		padding-top: 0;
+	}
+	.testi-text{
+		top: 84%;
+	}
+	.leatest-inner{
+		margin-bottom: 20px;
+	}
+	.leatest-text{
+		bottom: -157px;
+	}
+	.contact-inner-1{
+		text-align: center;
+		padding: 20px 36px;
+		padding-top: 0;
+	}
+	.contact-inner-3{
+		text-align: center;
+		padding: 20px 36px;
+		padding-bottom: 0;
+	}
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+	.navbar-light .navbar-toggler{
+		border-color: #000;
+	}
+	.navbar-nav{
+		padding-top: 20px;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		text-align: center;
+		margin-left: 0;
+	}
+	.navbar-light .navbar-nav .btn-info{
+		margin-left: 0;
+	}
+	
+	.banner-inner{
+		padding: 150px 0;
+	}
+	.banner-inner h1{
+		font-size: 50px;
+	}
+	.about-inner {
+	    width: 100%;
+	    padding: 30px;
+	}
+	.myh2{
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.mobile-display{
+		display: block;
+	}
+	.desktop-display{
+		display: none;
+	}
+	.features-inner{
+		margin-bottom: 20px;
+	}
+	.mb{
+		margin-bottom: 0;
+	}
+	.mt{
+		margin-top: 0;
+	}
+
+	.product-inner{
+		margin-bottom: 30px;
+	}
+	.testimonial.gap{
+		padding-top: 0;
+	}
+	.testi-inner img{
+		width: 100%;
+	}
+	.leatest-inner{
+		margin-bottom: 20px;
+	}
+	.leatest-inner img{
+		width: 100%;
+	}
+	.leatest-text{
+		bottom: -110px;
+	}
+	.contact-inner-1{
+		text-align: center;
+		padding: 20px 100px;
+		padding-top: 0;
+	}
+	.contact-inner-3{
+		text-align: center;
+		padding: 20px 100px;
+		padding-bottom: 0;
+	}
+
+
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads   ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+	.navbar-light .navbar-toggler{
+		border-color: #000;
+	}
+	.navbar-nav{
+		padding-top: 20px;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		text-align: center;
+		margin-left: 0;
+	}
+	.navbar-light .navbar-nav .btn-info{
+		margin-left: 0;
+	}
+	.banner-inner h1{
+		font-size: 54px;
+	}
+	.about-inner{
+		padding: 20px;
+	}
+	.mobile-display{
+		display: block;
+	}
+	.desktop-display{
+		display: none;
+	}
+	.myh4{
+		font-size: 18px;
+	}
+	.myh3{
+		font-size: 20px;
+	}
+	.product-inner h4{
+		font-size: 24px;
+	}
+	.mybtn{
+		font-size: 16px;
+	}
+	.testi-inner img{
+		width: 100%;
+	}
+	.testimonial.gap{
+		padding-top: 0;
+	}
+	.testi-text{
+		top: 74%;
+	}
+
+	.leatest-inner img{
+		width: 100%;
+	}
+	.leatest-text{
+		bottom: -192px;
+	}
+	.contact-inner-2{
+		padding: 15px;
+	}
+	.input-group{
+		padding: 8px;
+		margin-bottom: 10px;
+	}
+	.form-control{
+		padding: 5px;
+	}
+
+}
